@@ -1,0 +1,20 @@
+/* styles.css */
+
+/* Navbar */
+.navbar-brand img {
+    height: 30px;
+}
+
+/* Video Player */
+.ratio {
+    background: #000;
+}
+
+/* Suggested Videos */
+.card-body h6 {
+    font-size: 0.875rem;
+}
+
+.card-body p {
+    margin: 0;
+}

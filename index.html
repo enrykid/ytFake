@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/YouTube Logo Vector.svg" alt="YouTube" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex ms-auto">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Iniciar sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <!-- Video Player -->
+            <div class="col-lg-8">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IplRLRO1kGQ?si=b_z8eD31tXR4F6Jo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <h3 class="mt-3">Git y Github actualización a repositorio</h3>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                    <div>
+                        <span class="text-muted">1,234,567 vistas • 1 ene. 2024</span>
+                    </div>
+                    <div>
+                        <button class="btn btn-outline-primary btn-sm me-2">Me gusta</button>
+                        <button class="btn btn-outline-secondary btn-sm">No me gusta</button>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex">
+                    <img src="images/avatar.jpg" class="rounded-circle me-3" alt="User" width="100">
+                    <div>
+                        <h5 class="mb-0">jlopezdesigner</h5>
+                        <button class="btn btn-outline-danger btn-sm mt-2">Suscribirse</button>
+                    </div>
+                </div>
+                <p class="mt-3">En este video explico una de las maneras de descargar el contenido de repositorio de github realizar un cambio y posteriormente subir los cambios del proyecto.</p>
+            </div>
+
+            <!-- Suggested Videos -->
+            <div class="col-lg-4">
+                <h5>Videos sugeridos</h5>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="images/miniatura1.jpg" class="img-fluid rounded-start" alt="Thumbnail">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title">Título del video sugerido 1</h6>
+                                <p class="card-text"><small class="text-muted">Canal</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <img src="images/minitura2.jpg" class="img-fluid rounded-start" alt="Thumbnail">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title">Título del video sugerido 2</h6>
+                                <p class="card-text"><small class="text-muted">Canal</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Añadir más videos sugeridos de manera similar -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
